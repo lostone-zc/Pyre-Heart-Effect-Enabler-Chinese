@@ -2,14 +2,18 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Reflection.Emit;
-using static ShinyShoe.ProfilingUtils;
 
 namespace Patty_PyreHeartEffectEnabler_MOD
 {
     class PatchList
     {
+        [HarmonyPostfix, HarmonyPatch(typeof(ShinyShoe.AppManager), "DoesThisBuildReportErrors")]
+        public static void DisableErrorReportingPatch(ref bool __result)
+        {
+            __result = false;
+        }
+
         [HarmonyTranspiler, HarmonyPatch(typeof(SaveManager), "SetupRun")]
         static IEnumerable<CodeInstruction> SetupRun(IEnumerable<CodeInstruction> instructions)
         {
