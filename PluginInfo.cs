@@ -10,6 +10,6 @@ namespace Patty_PyreHeartEffectEnabler_MOD
     {
         public const string GUID = "Patty_PyreHeartEffectEnabler_MOD";
         public const string Name = "Pyre Heart Effect Enabler";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
     }
 }
