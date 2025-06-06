@@ -61,52 +61,52 @@ namespace Patty_PyreHeartEffectEnabler_MOD
         IEnumerable<ConfigEntry<bool>> CreateAllEntry()
         {
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Proto Heartcage"), true,
-                                           new ConfigDescription("No special capabilities."));
+                                           new ConfigDescription("No special capabilities.\n无特殊能力"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Heart of the Pact"), true,
-                                           new ConfigDescription("After playing a card from your Primary and Allied clan, draw +1 next turn."));
+                                           new ConfigDescription("After playing a card from your Primary and Allied clan, draw +1 next turn.\n打出一张你主氏族和盟友氏族的卡牌后，下个回合抽 +1 张牌。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Lifemothers Pyre"), true,
-                                           new ConfigDescription("Adds the option to copy cards at the Merchants of Steel, Magic, and Trinkets."));
+                                           new ConfigDescription("Adds the option to copy cards at the Merchants of Steel, Magic, and Trinkets.\n新增在钢铁、魔法和杂货商人处复制卡牌的选项。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Malickas Shifting Pyre"), true,
-                                           new ConfigDescription("All drafted cards appear with an upgrade."));
+                                           new ConfigDescription("All drafted cards appear with an upgrade.\n所有自选卡牌都带有升级。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Wynghs Spirit"), true,
-                                           new ConfigDescription("Once per battle, select the Heart to restore the front friendly units on all floors to full health."));
+                                           new ConfigDescription("Once per battle, select the Heart to restore the front friendly units on all floors to full health.\n选择薪火之心可为所有层的前排友方单位恢复所有生命值，每场战斗一次。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Fhyras Greed"), true,
-                                           new ConfigDescription("When your Pyre takes damage, gain 10 Gold."));
+                                           new ConfigDescription("When your Pyre takes damage, gain 10 Gold.\n当薪火收到伤害时，获得 10 金币。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Aquaths Reservation"), true,
-                                           new ConfigDescription("Once per battle, select the Heart to gain 3 Ember."));
+                                           new ConfigDescription("Once per battle, select the Heart to gain 3 Ember.\n选择薪火之心可获得 3 余烬，每场战斗一次。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Bogwurm Growths"), true,
-                                           new ConfigDescription("Permanently add 1 Capacity to a random floor after each battle."));
+                                           new ConfigDescription("Permanently add 1 Capacity to a random floor after each battle.\n每场战斗后，为随机楼层永久增加 1 容量。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Echo of the Time Father"), true,
-                                           new ConfigDescription("Once per battle, select the Heart to apply Frozen to all non-Blight and non-Scourge cards in hand."));
+                                           new ConfigDescription("Once per battle, select the Heart to apply Frozen to all non-Blight and non-Scourge cards in hand.\n选择薪火之心可使所有非祸患和非天灾手牌获得冻结，每场战斗一次。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Herzals Horde"), true,
-                                           new ConfigDescription("Gain  4 Deployment Ember. Deployable upgrade is 50% cheaper."));
+                                           new ConfigDescription("Gain  4 Deployment Ember. Deployable upgrade is 50% cheaper.\n获得 4 部署阶段余烬。升级可部署的价格降低 50%。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Pyre of Savagery"), true,
-                                           new ConfigDescription("Friendly units gain Slay: +1 Attack permanently."));
+                                           new ConfigDescription("Friendly units gain Slay: +1 Attack permanently.\n友方单位获得“杀戮：永久 +1 攻击力。”"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Pyre of Dominion"), true,
-                                           new ConfigDescription("Remove Train Stewards and starting cards. Immediately draft four packs, and double each card picked."));
+                                           new ConfigDescription("Remove Train Stewards and starting cards. Immediately draft four packs, and double each card picked.\n移除乘务员和初始卡牌。立刻获取四个自选卡包，并双倍获取挑选的卡牌。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Pyre of Entropy"), true,
-                                           new ConfigDescription("Add a Vengeful Shard to your deck after each battle. Draw 1 extra card for every 2 Blights in your deck."));
+                                           new ConfigDescription("Add a Vengeful Shard to your deck after each battle. Draw 1 extra card for every 2 Blights in your deck.\n每场战斗后在你的卡组中添加 1 张复仇碎片。你的卡组中每有 2 张祸患，额外抽 1 张牌。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Unassigned 1"), true,
-                                           new ConfigDescription("(WIP) Gain a duplicate of each drafted card."));
+                                           new ConfigDescription("(WIP) Gain a duplicate of each drafted card.\n（制作中）每次自选卡牌可获得一张复制品。"));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Unassigned 2"), true,
                                            new ConfigDescription("Fhyra_ArtifactDataGainSpellPower."));
 
             yield return Config.Bind<bool>(new ConfigDefinition("Pyre Heart Effects", "Unassigned 3"), true,
-                                           new ConfigDescription("-1 Capacity on all floors. Add 1 Capacity to a random floor after each battle."));
+                                           new ConfigDescription("-1 Capacity on all floors. Add 1 Capacity to a random floor after each battle.\n所有层 -1 容量。每场战斗后，随机层增加 1 容量。"));
         }
     }
 }
