@@ -72,9 +72,11 @@ namespace Patty_PyreHeartEffectEnabler_MOD
             Plugin.PyreHeartArtifacts.Clear();
             foreach (var artifact in __instance.GetAllGameData().GetAllPyreArtifactDatas())
             {
-                string artifactName = Plugin.GUIDToName[artifact.GetID()];
-                // Only create artifacts that has been enabled in the mod settings.
-                if (Plugin.ConfigEntries.Exists(entry => entry.Definition.Key == artifactName && entry.Value == true))
+                /* Only create artifacts that has been enabled in the mod settings.
+                 * And artifact that are known at the time of writing this mod
+                 */
+                if (Plugin.GUIDToName.TryGetValue(artifact.GetID(), out string artifactName) &&
+                    Plugin.ConfigEntries.Exists(entry => entry.Definition.Key == artifactName && entry.Value == true))
                 {
                     Plugin.PyreHeartArtifacts.Add(new PyreArtifactState(artifact, ___mutableRules));
                 }
