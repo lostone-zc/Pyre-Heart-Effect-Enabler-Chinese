@@ -1,31 +1,31 @@
-# Pyre Heart Effect Enabler
-Support language: English | 简体中文
+# 薪火效果自由启用
+支持的语言: English | 简体中文
 
-Enable any Pyre Heart effect in game with ease (For Monster Train 2).
+可以在游戏内便捷地启用任何薪火的效果，也可以同时启用多个薪火的效果。
 
-This's a reupload of [Nexus mod](https://www.nexusmods.com/monstertrain2/mods/3) with the author PattyHoswell's permission.
+本模组是对 PattyHoswell 的 [Nexus 模组](https://www.nexusmods.com/monstertrain2/mods/3)的转载，经过作者本身授权。
 
 ![Screenshot 2025-06-05 061941](https://github.com/user-attachments/assets/0d146c12-2f31-43a2-91d8-8d5863e5de61)
 
-## How to manually install:
-1. Install BepInEx 5.4 (or you can use the preconfigured ones)
-2. Run the game onces (To initialize BepInEx for first time)
-3. Put the mod into (gamedata)\BepInEx\plugins
-4. Restart the game (If the mod does not shows, check the game logs if there's Patty_PyreHeartEffectEnabler_MOD installed and if BepInEx is installed correctly).
-5. It's highly recommended (but still optional) to install BepInEx Configuration Manager﻿ as this makes enabling and disabling certain Pyre Heart effects a whole lot easier.
+## 如何手动安装:
+1. 安装 BepInEx 5.4
+2. 运行游戏一次 (以生成 BepInEx 相关的文件)
+3. 将下载的模组放入到 (游戏根目录)\BepInEx\plugins 文件夹
+4. 重启游戏 (如果模组没有出现, 请检查游戏日志)
+5. 建议安装 BepInEx Configuration Manager，它可以使开关薪火效果的过程更加容易 (该步骤可以跳过)
 
-## How to use (if you have BepInEx Configuration Manager):
-- Press F1 to open the configuration menu.
-- On the Pyre Heart Effect Enabler, enable/disable any Pyre Heart effect you want. By default everything is enabled.
-- Hover into the options to see the description of what it does (some might not have description)
-- Start a new run to see the changes
+## 如何使用 (如果安装了 BepInEx Configuration Manager):
+- 在游戏内按 F1 打开配置目录
+- 在 Pyre Heart Effect Enabler 内，开关任意的薪火效果。默认所有的薪火效果均启用
+- 鼠标悬停在选项上可以查看选项的效果描述 (一些选择没有效果描述)
+- 开始一局新游戏以查看变化
 
-## How to use (if you don't have it):
-- After running the game onces. Go to BepInEx/cfg. Open the file called Patty_PyreHeartEffectEnabler_MOD.cfg
-- Set any Pyre Heart Effect you want to true (to enable) and false (to disable)
-- If you have the game running right now, please restart the game
-- Start a new run to see the changes
+## 如何使用 (如果没有安装 BepInEx Configuration Manager):
+- 在运行游戏一次之后，前往 BepInEx/config 文件夹，打开名字叫作 Patty_PyreHeartEffectEnabler_MOD.cfg 的文件
+- 将任意的薪火效果选项设置为 true (以启用该薪火效果) 或 false (以禁用该薪火效果)
+- 如果游戏正在运行中，请重启游戏
+- 开始一局新游戏以查看变化
 
-## Credits
-- GravitonGamer (John) = For helping testing the mod and ideas
-- lostone-zc = For translating the mod to chinese
+## 致谢
+- GravitonGamer (John) = 提供 idea 和帮助测试模组
+- lostone-zc = 将模组翻译成简体中文
